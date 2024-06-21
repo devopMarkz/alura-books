@@ -1,6 +1,6 @@
 .cabecalho__menu-hamburguer {
-    width: 24px;
-    height: 24px;
+    width: 2.4rem;
+    height: 2.4rem;
     background-image: url("/frontend/assets/images/Menu.svg");
     display: inline-block;
     background-repeat: no-repeat;
@@ -19,13 +19,14 @@
 .container {
     display: flex;
     align-items: center;
-    gap: 1em;
+    gap: 1.6em;
 }
 
 .lista-menu {
     display: none;
     position: absolute;
     top: 100%;
+    left: 0;
     width: 60vw;
 }
 
@@ -41,6 +42,7 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link {
@@ -49,4 +51,8 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.container__botao {
+    display: none;
 }
