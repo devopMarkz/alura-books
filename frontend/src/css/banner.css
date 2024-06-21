@@ -14,3 +14,27 @@
     font-weight: 500;
     margin: 1em 0;
 }
+
+.banner__pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    border-radius: 2.4rem;
+    padding: 1em;
+    width: 100%;
+    outline: none;
+    /* text-align: center; */
+    /* background-image: url("/frontend/assets/images/Lupa.svg");
+    background-repeat: no-repeat; */
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+    background: url("/frontend/assets/images/Lupa.svg");
+    background-repeat: no-repeat;
+    background-position: 1rem;
+}

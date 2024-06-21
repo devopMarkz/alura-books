@@ -45,6 +45,10 @@
     font-weight: 700;
 }
 
+.lista-menu__item:hover {
+    background: var(--laranja);
+}
+
 .lista-menu__link {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
