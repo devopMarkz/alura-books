@@ -26,7 +26,6 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5rem;
-    align-items: center;
 }
 
 .card__botoes {
