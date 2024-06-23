@@ -26,7 +26,6 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
     width: 60vw;
 }
 
@@ -57,12 +56,10 @@
     text-transform: uppercase;
 }
 
-.container__botao {
-    display: none;
-}
-
 .container__titulo,
-.opcoes {
+.opcoes,
+.container__botao,
+.opcoes__botao {
     display: none;
 }
 
@@ -98,6 +95,11 @@
     .container__imagem-transparente,
     .cabecalho__menu-hamburguer {
         display: none;
+    }
+
+    .opcoes__botao:checked ~ .lista-menu {
+        display: block;
+        width: auto;
     }
     
 }
