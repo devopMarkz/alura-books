@@ -34,7 +34,7 @@
     font-family: var(--fonte-principal);
     color: var(--azul);
     font-size: 1.4rem;
-    background: url("/frontend/assets/images/Email.svg");
+    background: url("/assets/images/Email.svg");
     background-repeat: no-repeat;
     padding-left: 4rem;
     background-position: 1.5rem;
