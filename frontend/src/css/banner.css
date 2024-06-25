@@ -36,7 +36,7 @@
     color: var(--branco);
     background: url("/assets/images/Lupa.svg");
     background-repeat: no-repeat;
-    background-position: 1rem;
+    background-position: left;
 }
 
 @media screen and (min-width: 1024px) {
