@@ -7,4 +7,10 @@
   <li>Abordagem Mobile-First;</li>
   <li>Responsividade para Tablet e Desktop;</li>
   <li>Metodologia css BEM;</li>
+  <li>Carrossel de livros com swiperJs</li>
 </ul>
+
+<h2> Tela para Mobile: </h2>
+
+<img src="/frontend/assets/images/Tela-Mobile1.png">
+<img src="/frontend/assets/images/Tela-Mobile2.png">
